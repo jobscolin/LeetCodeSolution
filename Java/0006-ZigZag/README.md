@@ -35,4 +35,4 @@ P     I
 解题思路： 查看Z字型发现规律
 1. 一个循环的数量是2*numRows-2;
 2. 第一行和最后一行的字符index为k* (2*numRows-2)和k *(2 * numRows-2)+numRows-1;
-3. 第2行-第numRows-1行中存在2中情况，一种k *(2 * numRows-2)+numRows-1和k *(2 * numRows-2)-
+3. 第2行-第numRows-1行中存在2中情况，一种k *(2 * numRows-2)+numRows-1和k *(2 * numRows-2)-i；i为第i行
